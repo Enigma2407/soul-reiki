@@ -5,6 +5,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Soul Reiki</title>
   <style>
+    bracelet-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+
+@media (max-width: 600px) {
+  .bracelet-grid {
+    grid-template-columns: 1fr;
+  }
+}
     body {
       margin: 0;
       font-family: 'Segoe UI', sans-serif;
